@@ -1,0 +1,19 @@
+{
+	"name": "ethers-scripts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^17.2.1",
+		"ethers": "^6.15.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.1.4"
+	}
+}
