@@ -41,4 +41,4 @@ console.log("TX sent", mintTx.hash);
 
 mintTx.wait();
 
-console.log("TX mined!")
+console.log("TX mined!");
