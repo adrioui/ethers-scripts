@@ -8,6 +8,8 @@ console.log(
 	await localProvider.getBlockNumber(),
 );
 
-const myBalance = await localProvider.getBalance("0x94A5D03FEe64dADE55Df989fE2Cb3AA74c06b7ec");
-console.log(myBalance)
+const myBalance = await localProvider.getBalance(
+	"0x94A5D03FEe64dADE55Df989fE2Cb3AA74c06b7ec",
+);
+console.log(myBalance);
 // const sanfordBalance = await localProvider.getBalance("sanfordstout.eth");
